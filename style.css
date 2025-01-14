@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #121212; /* Dark grey background */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width of the viewport */
+  height: 100%; /* Full height of the viewport */
+}
+
+#canvas-container {
+  position: relative; /* Enable positioning of child elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2a; /* Grey background for the container */
+  padding: 20px; /* Add some padding around the canvas */
+}
+
+#red-light-container {
+  position: absolute; /* Position it within the container */
+  display: flex; /* Align checkbox and label side by side */
+  flex-direction: row; /* Ensure checkbox and text are in a row */
+  align-items: center; /* Center align checkbox and label vertically */
+  bottom: 40px; /* Align near the bottom of the container */
+  justify-content: center;
+  width: 100%; /* Center the container horizontally */
+}
+
+#red-light-container input[type="checkbox"] {
+  margin-right: 10px; /* Add space between the checkbox and the text */
+}
+
+#red-light-container label {
+  font-size: 16px; /* Match the font size of the message area */
+  font-family: Arial, sans-serif; /* Use the same font family */
+  color: white; /* Match the text color */
+}
+
+#message-area {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+
